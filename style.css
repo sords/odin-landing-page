@@ -1,0 +1,112 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/*header*/
+.header{
+    display: flex;
+    justify-content: space-around;
+    background:orange;
+    padding: 80px;
+} 
+
+.info{
+    padding: 0px;
+    margin: 0px;
+    width: 300px;
+}
+
+.info button {
+    background-color: #000099;
+    color:white;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.left img {
+    border: 2px solid;
+    height :150px;
+}
+/*first main*/
+.head {
+    text-align: center;
+    margin: 30px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.card img{
+    width: 150px;
+    height: 150px;
+    border: 3px solid;
+    border-radius: 10px;
+}
+.text {
+    width: 150px;
+    height: 15opx;
+}
+
+.content {
+    display : flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 100px;
+}
+/*second main*/
+.message {
+    background: lightgray;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message p {
+    padding: 100px;
+    font-size: x-large;
+    text-align: left;
+}
+/*third main*/
+.signup {
+    margin:100px;
+    background-color:blue;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 50px;
+}
+
+.text {
+    height: 80px;
+    width: auto;
+}
+
+.boldtext{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.signup button{
+    background-color: blue;
+    color: white;
+    height: 30px;
+    width: 100px;
+}
+
+/* footer*/
+.footer {
+    background-color: orange;
+    text-align: center;
+    height: 70px;
+}
+
+.footer p {
+    padding-top: 30px;
+}
+
+
