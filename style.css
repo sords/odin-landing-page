@@ -7,19 +7,38 @@ body{
     display: flex;
     justify-content: space-around;
     background:#1F2937;
-    padding: 80px;
-    color: white;
-    gap:10px;
+    color: #F9FAF8;
+    padding-bottom: 80px;
 } 
+
+.homelogo {
+    font-size: 24px;
+    color: #F9FAF8;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+li{
+    padding-bottom: 50px;
+}
 
 .info{
     padding: 0px;
     margin: 0px;
     width: 300px;
 }
+.info .headingtext{
+    font-size: 48PX;
+    font-weight: bolder;    
+}
+
+.macrotext{
+    font-size: 18px;
+    color:#E5E7EB;
+}
 
 .info button {
-    background-color: #000099;
+    background-color: #3882F6;
     color:white;
 }
 
@@ -41,23 +60,26 @@ ul{
     font-weight: bolder;
 }
 
+.content {
+    display : flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 150px;
+}
+
 .card img{
     width: 150px;
     height: 150px;
     border: 3px solid;
     border-radius: 10px;
 }
-.text {
+
+.card {
+    height:150px;
     width: 150px;
-    height: 15opx;
 }
 
-.content {
-    display : flex;
-    justify-content: center;
-    gap: 50px;
-    padding-bottom: 100px;
-}
+
 /*second main*/
 .message {
     background: lightgray;
@@ -75,7 +97,7 @@ ul{
 /*third main*/
 .signup {
     margin:100px;
-    background-color:blue;
+    background-color:#3882F6;
     color:white;
     display: flex;
     justify-content: space-around;
@@ -94,7 +116,7 @@ ul{
 }
 
 .signup button{
-    background-color: blue;
+    background-color: #3882F6;
     color: white;
     height: 30px;
     width: 100px;
@@ -102,7 +124,8 @@ ul{
 
 /* footer*/
 .footer {
-    background-color: orange;
+    background-color: #1F2937;
+    color: #E5E7EB;
     text-align: center;
     height: 70px;
 }
