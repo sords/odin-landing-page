@@ -6,8 +6,10 @@ body{
 .header{
     display: flex;
     justify-content: space-around;
-    background:orange;
+    background:#1F2937;
     padding: 80px;
+    color: white;
+    gap:10px;
 } 
 
 .info{
